@@ -1,0 +1,21 @@
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": false,
+  "bracketSpacing": true,
+  "endOfLine": "auto",
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "importOrder": [
+    "^@customTypes/(.*)$",
+    "^@root/(.*)$",
+    "^@src/(.*)$",
+    "^@assets/(.*)$",
+    "^@constants/(.*)$",
+    "^@utils/(.*)$",
+    "^@atoms/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
